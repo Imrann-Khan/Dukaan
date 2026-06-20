@@ -1,0 +1,12 @@
+d:\Important\CP Solves\Course\Dukaan\Dukaan.Domain\bin\Debug\net10.0\Dukaan.Domain.deps.json
+D:\Important\CP Solves\Course\Dukaan\Dukaan.Domain\bin\Debug\net10.0\Dukaan.Domain.dll
+D:\Important\CP Solves\Course\Dukaan\Dukaan.Domain\bin\Debug\net10.0\Dukaan.Domain.pdb
+D:\Important\CP Solves\Course\Dukaan\Dukaan.Domain\obj\Debug\net10.0\Dukaan.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Important\CP Solves\Course\Dukaan\Dukaan.Domain\obj\Debug\net10.0\Dukaan.Domain.AssemblyInfoInputs.cache
+D:\Important\CP Solves\Course\Dukaan\Dukaan.Domain\obj\Debug\net10.0\Dukaan.Domain.AssemblyInfo.cs
+D:\Important\CP Solves\Course\Dukaan\Dukaan.Domain\obj\Debug\net10.0\Dukaan.Domain.csproj.CoreCompileInputs.cache
+D:\Important\CP Solves\Course\Dukaan\Dukaan.Domain\obj\Debug\net10.0\Dukaan.Domain.sourcelink.json
+D:\Important\CP Solves\Course\Dukaan\Dukaan.Domain\obj\Debug\net10.0\Dukaan.Domain.dll
+D:\Important\CP Solves\Course\Dukaan\Dukaan.Domain\obj\Debug\net10.0\refint\Dukaan.Domain.dll
+D:\Important\CP Solves\Course\Dukaan\Dukaan.Domain\obj\Debug\net10.0\Dukaan.Domain.pdb
+d:\Important\CP Solves\Course\Dukaan\Dukaan.Domain\obj\Debug\net10.0\ref\Dukaan.Domain.dll

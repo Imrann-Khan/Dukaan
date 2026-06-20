@@ -1,0 +1,16 @@
+d:\Important\CP Solves\Course\Dukaan\Dukaan.Application\bin\Debug\net10.0\Dukaan.Application.deps.json
+D:\Important\CP Solves\Course\Dukaan\Dukaan.Application\bin\Debug\net10.0\Dukaan.Application.dll
+D:\Important\CP Solves\Course\Dukaan\Dukaan.Application\bin\Debug\net10.0\Dukaan.Application.pdb
+D:\Important\CP Solves\Course\Dukaan\Dukaan.Application\bin\Debug\net10.0\Dukaan.Domain.dll
+D:\Important\CP Solves\Course\Dukaan\Dukaan.Application\bin\Debug\net10.0\Dukaan.Domain.pdb
+D:\Important\CP Solves\Course\Dukaan\Dukaan.Application\obj\Debug\net10.0\Dukaan.Application.csproj.AssemblyReference.cache
+D:\Important\CP Solves\Course\Dukaan\Dukaan.Application\obj\Debug\net10.0\Dukaan.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\Important\CP Solves\Course\Dukaan\Dukaan.Application\obj\Debug\net10.0\Dukaan.Application.AssemblyInfoInputs.cache
+D:\Important\CP Solves\Course\Dukaan\Dukaan.Application\obj\Debug\net10.0\Dukaan.Application.AssemblyInfo.cs
+D:\Important\CP Solves\Course\Dukaan\Dukaan.Application\obj\Debug\net10.0\Dukaan.Application.csproj.CoreCompileInputs.cache
+D:\Important\CP Solves\Course\Dukaan\Dukaan.Application\obj\Debug\net10.0\Dukaan.Application.sourcelink.json
+d:\Important\CP Solves\Course\Dukaan\Dukaan.Application\obj\Debug\net10.0\Dukaan.A.7B95C9CD.Up2Date
+D:\Important\CP Solves\Course\Dukaan\Dukaan.Application\obj\Debug\net10.0\Dukaan.Application.dll
+D:\Important\CP Solves\Course\Dukaan\Dukaan.Application\obj\Debug\net10.0\refint\Dukaan.Application.dll
+D:\Important\CP Solves\Course\Dukaan\Dukaan.Application\obj\Debug\net10.0\Dukaan.Application.pdb
+d:\Important\CP Solves\Course\Dukaan\Dukaan.Application\obj\Debug\net10.0\ref\Dukaan.Application.dll
