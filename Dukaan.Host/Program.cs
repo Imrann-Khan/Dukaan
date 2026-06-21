@@ -11,6 +11,7 @@ using Dukaan.Infrastructure.Services.Interfaces;
 using Dukaan.Infrastructure.Services;
 using Dukaan.Infrastructure.Interceptors;
 using Dukaan.Application.Services;
+using Dukaan.Application.Features.Auth.Commands.Register;
 
 var builder = WebApplication.CreateBuilder();
 
@@ -37,10 +38,10 @@ builder.Services.AddAuthentication( options =>
         ValidateAudience = false,
         ValidateLifetime = true,
         ValidateIssuerSigningKey = true,
-        IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration["Jwt:Key"]))
+        IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration["Jwt:Key"]!))
     };
 });
-builder.Services.AddHttpContextAccessor();
+
 
 // DI Injection
 builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
@@ -50,6 +51,10 @@ builder.Services.AddScoped<ITenantProvider, TenantProvider>();
 builder.Services.AddScoped<TenantInterceptor>();
 builder.Services.AddScoped<AuthService>();
 builder.Services.AddScoped<TenantService>();
+builder.Services.AddHttpContextAccessor();
+builder.Services.AddMediatR(cfg => 
+    cfg.RegisterServicesFromAssemblies(typeof(RegisterCommand).Assembly)
+);
 
 var app = builder.Build();
 

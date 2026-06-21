@@ -1,18 +1,20 @@
-using Dukaan.Application.Dtos;
-using Dukaan.Application.Services;
+using Dukaan.Application.Features.Auth.Commands.Login;
+using Dukaan.Application.Features.Auth.Commands.Register;
+using MediatR;
 using Microsoft.AspNetCore.Mvc;
+namespace Dukaan.Host.Controllers;
 
 [ApiController]
 [Route("/[controller]")]
-public class AuthController(AuthService authService) : ControllerBase
+public class AuthController(ISender sender) : ControllerBase
 {
     // Post register
     [HttpPost("register")]
-    public async Task<IActionResult> Register([FromBody]RegisterRequestDTO request)
+    public async Task<IActionResult> Register([FromBody]RegisterCommand command)
     {
         try
         {
-            var response = await authService.RegisterAsync(request);
+            var response = await sender.Send(command);
             return Ok(response);
         }
         catch(Exception err)
@@ -23,11 +25,11 @@ public class AuthController(AuthService authService) : ControllerBase
 
     // Post Login]
     [HttpPost("login")]
-    public async Task<IActionResult> Login([FromBody]LoginRequestDTO request)
+    public async Task<IActionResult> Login([FromBody]LoginCommand command)
     {
         try
         {
-            var response = await authService.LoginAsync(request);
+            var response = await sender.Send(command);
             return Ok(response);
         }
         catch (UnauthorizedAccessException)
