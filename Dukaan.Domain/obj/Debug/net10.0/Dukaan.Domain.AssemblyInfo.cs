@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Dukaan.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+01d6b8f7920ec5057f6463660f441486b10d2bf1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b4a7008640c9a6a6737abdd078d3c460574807c6")]
 [assembly: System.Reflection.AssemblyProductAttribute("Dukaan.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Dukaan.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

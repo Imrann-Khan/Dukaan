@@ -18,9 +18,20 @@ public class AppDbContext : IdentityDbContext<Merchant, IdentityRole<Guid>, Guid
     }
     public DbSet<Tenant> Tenants {get; set;} 
     public DbSet<Product> Products {get; set;}
+    public DbSet<Category> Categories {get; set;}
+    public DbSet<CategorizedProduct> CategorizedProducts {get; set;}
     protected override void OnModelCreating(ModelBuilder builder)
     {
         base.OnModelCreating(builder);
+        builder.Entity<Category>()
+            .HasOne(c => c.ParentCategory)           
+            .WithMany(c => c.SubCategories)          
+            .HasForeignKey(c => c.ParentCategoryId)  
+            .OnDelete(DeleteBehavior.Restrict);      
+
+        builder.Entity<CategorizedProduct>()
+            .HasKey(cp => new { cp.CategoryId, cp.ProductId });
+
         foreach(var entityType in builder.Model.GetEntityTypes())
         {
             if(typeof(ITenantEntity).IsAssignableFrom(entityType.ClrType))

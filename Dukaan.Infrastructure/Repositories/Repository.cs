@@ -13,4 +13,5 @@ public class Repository<T> : IRepository<T> where T : class
     public async Task<T?> GetByIdAsync(Guid id) => await _db.Set<T>().FindAsync(id);
     public async Task AddAsync(T entity) => await _db.Set<T>().AddAsync(entity);
     public void Remove(T entity) => _db.Set<T>().Remove(entity);
+    public IQueryable<T> GetAllAsQueryable() => _db.Set<T>().AsQueryable();
 }

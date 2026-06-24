@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "02Xdwm1E2D4=",
+  "dgSpecHash": "nOvebTOjsuU=",
   "success": true,
   "projectFilePath": "D:\\Important\\CP Solves\\Course\\Dukaan\\Dukaan.Application\\Dukaan.Application.csproj",
   "expectedPackageFiles": [
@@ -10,7 +10,11 @@
     "C:\\Users\\ik111\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\10.0.9\\microsoft.aspnetcore.cryptography.internal.10.0.9.nupkg.sha512",
     "C:\\Users\\ik111\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\10.0.9\\microsoft.aspnetcore.cryptography.keyderivation.10.0.9.nupkg.sha512",
     "C:\\Users\\ik111\\.nuget\\packages\\microsoft.bcl.cryptography\\10.0.2\\microsoft.bcl.cryptography.10.0.2.nupkg.sha512",
+    "C:\\Users\\ik111\\.nuget\\packages\\microsoft.entityframeworkcore\\10.0.9\\microsoft.entityframeworkcore.10.0.9.nupkg.sha512",
+    "C:\\Users\\ik111\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\10.0.9\\microsoft.entityframeworkcore.abstractions.10.0.9.nupkg.sha512",
+    "C:\\Users\\ik111\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\10.0.9\\microsoft.entityframeworkcore.analyzers.10.0.9.nupkg.sha512",
     "C:\\Users\\ik111\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\10.0.9\\microsoft.extensions.caching.abstractions.10.0.9.nupkg.sha512",
+    "C:\\Users\\ik111\\.nuget\\packages\\microsoft.extensions.caching.memory\\10.0.9\\microsoft.extensions.caching.memory.10.0.9.nupkg.sha512",
     "C:\\Users\\ik111\\.nuget\\packages\\microsoft.extensions.configuration\\10.0.9\\microsoft.extensions.configuration.10.0.9.nupkg.sha512",
     "C:\\Users\\ik111\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\10.0.9\\microsoft.extensions.configuration.abstractions.10.0.9.nupkg.sha512",
     "C:\\Users\\ik111\\.nuget\\packages\\microsoft.extensions.configuration.binder\\10.0.9\\microsoft.extensions.configuration.binder.10.0.9.nupkg.sha512",
