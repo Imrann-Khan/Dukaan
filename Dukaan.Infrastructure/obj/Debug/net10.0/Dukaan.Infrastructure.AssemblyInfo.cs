@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Dukaan.Infrastructure")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c101b3603f53c90c39022fd8334fb13718ab05cc")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+01d6b8f7920ec5057f6463660f441486b10d2bf1")]
 [assembly: System.Reflection.AssemblyProductAttribute("Dukaan.Infrastructure")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Dukaan.Infrastructure")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
